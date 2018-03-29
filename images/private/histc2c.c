@@ -34,7 +34,7 @@ int findBin( double x, double *edges, int nBins ) {
 /*******************************************************************************
 * Fast indexing into multidimensional arrays.
 * Call sub2ind_init once and store the result (siz contains the nd sizes):
-*  subMul = _init( siz, nd );
+*  subMul = sub2ind_init( siz, nd );
 * Then, to index into an array A of size siz, given a subscript sub
 * (where sub is an nd int array of subscripts), you can get the index using:
 *  sub2ind(ind,sub,subMul,nd)
